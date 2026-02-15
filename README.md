@@ -47,7 +47,6 @@ Get the latest release from the [Releases page](https://github.com/yunxin/agent-
 | Asset | Description |
 |-------|-------------|
 | `AgentTerm-x.x.x-setup.exe` | Windows installer |
-| `AgentTerm-x.x.x.exe` | Windows portable (no install) |
 
 ## Stack
 
