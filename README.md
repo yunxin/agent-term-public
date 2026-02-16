@@ -49,6 +49,17 @@ Get the latest release from the [Releases page](https://github.com/yunxin/agent-
 | Asset | Description |
 |-------|-------------|
 | `AgentTerm-x.x.x-setup.exe` | Windows installer |
+| `intellij-navigator-1.0.0.zip` | IntelliJ plugin (IDE companion) |
+
+## IntelliJ Plugin
+
+The companion plugin runs a local TCP server inside the IDE that handles navigation requests from AgentTerm — open files, jump to lines, and resolve symbols. Tested with PyCharm, compatible with all IntelliJ-based IDEs (WebStorm, GoLand, IntelliJ IDEA, etc.).
+
+**Install:** Settings → Plugins → gear icon → Install Plugin from Disk → select `intellij-navigator-1.0.0.zip`.
+
+The plugin listens on `localhost:8765` automatically — no configuration needed.
+
+The plugin includes a 90-day trial. Download a newer build when it expires.
 
 ## Stack
 
