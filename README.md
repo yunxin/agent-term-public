@@ -1,6 +1,8 @@
 # AgentTerm
 
-A purpose-built terminal for AI-assisted development. Turns passive CLI output into an interactive navigation surface — every file path, traceback, and symbol becomes a clickable link to your IDE.
+**Click any file path, traceback, or symbol in your terminal to jump straight to your IDE.**
+
+A purpose-built terminal for AI-assisted development. AgentTerm watches output in real time and turns every reference into a clickable link — no copy-paste, no manual navigation.
 
 Built for workflows with Claude Code, Cursor, and similar AI coding tools that produce dense file references.
 
