@@ -1,6 +1,6 @@
 # AgentTerm
 
-**Click any file path, traceback, or symbol in your terminal to jump straight to your IDE.**
+**Click any file:line, symbol, or traceback in your terminal to jump straight to your IDE.**
 
 A purpose-built terminal for AI-assisted development. AgentTerm watches output in real time and turns every reference into a clickable link — no copy-paste, no manual navigation.
 
@@ -8,7 +8,7 @@ Built for workflows with Claude Code, Cursor, and similar AI coding tools that p
 
 ## Why
 
-AI coding assistants dump dozens of file paths per response. Copying, switching windows, and manually navigating is slow. AgentTerm makes every reference instantly clickable — file paths, tracebacks, symbols, and more.
+AI coding assistants dump dozens of file paths per response. Copying, switching windows, and manually navigating is slow. AgentTerm makes every reference instantly clickable — file paths, symbols, tracebacks, and more.
 
 ## Performance
 
