@@ -18,7 +18,9 @@ Zero perceptible overhead. The decoration engine is append-only and single-pass 
 
 - **Append-only stream processing** — pattern detection runs incrementally on new output, O(new rows) not O(total rows)
 - **IPC over contextBridge** — sandboxed renderer communicates with the host process through a minimal typed API
-- **IDE integration via local TCP socket** — companion plugin turns the IDE into a navigation server; the terminal sends structured commands for file/line/symbol resolution
+- **IDE integration via local TCP socket** — two companion plugins: a backend plugin
+  resolves files/symbols and moves the caret (port 8765), a frontend plugin scrolls
+  the editor to the target line (port 8766)
 - **Cross-platform shell management** — WSL on Windows, native PTY on macOS
 
 ## Download
@@ -28,7 +30,17 @@ Get the latest release from the [Releases page](https://github.com/yunxin/agent-
 | Asset | Description |
 |-------|-------------|
 | `AgentTerm-x.x.x-setup.exe` | Windows installer |
-| `intellij-navigator-1.0.0.zip` | IntelliJ plugin (IDE companion) |
+| `intellij-navigator-1.0.0.zip` | IntelliJ backend plugin (file/symbol resolution, port 8765) |
+| `intellij-navigator-frontend-1.0.0.zip` | IntelliJ frontend plugin (editor scroll, port 8766) |
+
+## Setup
+
+Install both IntelliJ plugins via **Settings → Plugins → ⚙ → Install Plugin from Disk**.
+
+| Environment | Where to install |
+|-------------|-----------------|
+| **Local** | Install both plugins in your IDE |
+| **Remote dev** | Install backend plugin on the host IDE, frontend plugin on the client IDE |
 
 ## Stack
 
