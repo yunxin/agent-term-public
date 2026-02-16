@@ -33,6 +33,8 @@ Get the latest release from the [Releases page](https://github.com/yunxin/agent-
 | `intellij-navigator-1.0.0.zip` | IntelliJ backend plugin (file/symbol resolution, port 8765) |
 | `intellij-navigator-frontend-1.0.0.zip` | IntelliJ frontend plugin (editor scroll, port 8766) |
 
+**Currently available for Windows (WSL) only.** Support for macOS, native Windows (non-WSL), and Linux can be added on request.
+
 ## Setup
 
 Install both IntelliJ plugins via **Settings → Plugins → ⚙ → Install Plugin from Disk**.
