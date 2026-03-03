@@ -1,6 +1,6 @@
 # AgentTerm
 
-**Click any file:line, symbol, or traceback in your terminal to jump straight to your IDE.**
+**Click any file:line, symbol, or reference in your terminal to jump straight to your IDE.**
 
 A purpose-built terminal for AI-assisted development. AgentTerm watches output in real time and turns every reference into a clickable link — no copy-paste, no manual navigation.
 
