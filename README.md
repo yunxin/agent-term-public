@@ -1,10 +1,10 @@
 # AgentTerm
 
-**Click any file:line, symbol, or reference in your terminal to jump straight to your IDE.**
+**Click any file:line, symbol, or resource in your terminal to jump straight to your IDE or the default OS app.**
 
 A purpose-built terminal for AI-assisted development. AgentTerm watches output in real time and turns every reference into a clickable link — no copy-paste, no manual navigation.
 
-Built for workflows with Claude Code, Cursor, and similar AI coding tools that produce dense file references.
+Built for workflows with Claude Code, Cursor, and similar AI coding tools that produce dense references.
 
 ## Why
 
